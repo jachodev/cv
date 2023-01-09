@@ -91,7 +91,7 @@ let resumeButton=document.getElementById('resume-button')
 // Html2pdf options
 var opt = {
     margin:       0,
-    filename:     'cv-jwhh.pdf',
+    filename:     'jwhh.pdf',
     image:        { type: 'jpeg', quality: 0.98 },
     html2canvas:  { scale: 4 },
     jsPDF:        { format: 'a4', orientation: 'portrait' }
@@ -100,7 +100,7 @@ var opt = {
 
 // Function to call areaCv and Html2Pdf options 
 function generatedResume(){
-    html2pdf(areaCv)
+    html2pdf(areaCv,opt)
 }
 
 // When the button is clicked, it executes the three functions
