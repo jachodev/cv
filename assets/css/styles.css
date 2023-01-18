@@ -6,7 +6,7 @@
   --header-height: 3rem;
   
   /*========== Colors ==========*/
-  --title-color: #0B0A0A;
+  --title-color: #02101b;
   --text-color: #403A3A;
   --text-color-light: #707070;
   --container-color: #FAFAFA;
@@ -453,6 +453,11 @@ img{
 /*========== CERTIFICATES ==========*/
 .certificate__title{
   font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
+.skills__name2{
+  display: flex;
+  align-items: center;
   margin-bottom: var(--mb-1);
 }
 
